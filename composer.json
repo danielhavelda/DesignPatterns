@@ -1,0 +1,18 @@
+{
+  "name": "danielhavelda/design-patterns",
+  "description": "Alapvető design pattern-ek leírása, mellékelt példakódokkal, magyarul.",
+  "keywords": ["Design Patterns"],
+  "readme": "README.md",
+  "authors": [
+    { "name": "Dániel Havelda", "email": "8553631dev@gmail.com" }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/"
+    }
+  },
+  "require": {},
+  "archive": {
+    "exclude": ["/vendor/"]
+  }
+}
