@@ -5,6 +5,8 @@ namespace DesignPatterns\Creational\AbstractFactory;
 use DesignPatterns\Creational\AbstractFactory\Interfaces\VehicleFactory;
 use DesignPatterns\Creational\AbstractFactory\PurchasableCar;
 use DesignPatterns\Creational\AbstractFactory\PurchasableScooter;
+use DesignPatterns\Creational\AbstractFactory\Interfaces\CarInterface;
+use DesignPatterns\Creational\AbstractFactory\Interfaces\ScooterInterface;
 
 /**
  * Konkrét Factory
@@ -13,12 +15,12 @@ use DesignPatterns\Creational\AbstractFactory\PurchasableScooter;
  */
 class PurchasableVehicleFactory implements VehicleFactory
 {
-  public function createCar(string $vehicleId): PurchasableCar
+  public function createCar(string $vehicleId): CarInterface
   {
     return new PurchasableCar($vehicleId);
   }
 
-  public function createScooter(string $vehicleId): PurchasableScooter
+  public function createScooter(string $vehicleId): ScooterInterface
   {
     return new PurchasableScooter($vehicleId);
   }
