@@ -68,7 +68,7 @@ class Car implements CarInterface
     return $this->longitude;
   }
 
-  public function getLangitude(): float
+  public function getLatitude(): float
   {
     return $this->latitude;
   }

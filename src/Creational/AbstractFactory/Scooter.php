@@ -54,7 +54,7 @@ class Scooter implements ScooterInterface
     return $this->currentRange;
   }
 
-  public function getLangitude(): float
+  public function getLatitude(): float
   {
     return $this->latitude;
   }

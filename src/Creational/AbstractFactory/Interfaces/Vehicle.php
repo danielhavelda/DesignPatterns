@@ -10,6 +10,6 @@ interface Vehicle
   public function __construct(string $vehicleId);
   public function getMaxRange(): int;
   public function getCurrentRange(): int;
-  public function getLangitude(): float;
+  public function getLatitude(): float;
   public function getLongitude(): float;
 }
