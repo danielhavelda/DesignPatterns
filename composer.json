@@ -11,8 +11,10 @@
       "DesignPatterns\\": "src/"
     }
   },
-  "require": {},
   "archive": {
     "exclude": ["/vendor/"]
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.4"
   }
 }
