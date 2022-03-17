@@ -16,3 +16,8 @@ ezzel mellékesen elérve, hogy különböző típusú és reprezentációjú v�
 A gyakran ismétlődő konfigurációkat ki lehet szervezni egy ún. Director class-ba, mely ezen összeállításokat külön metódusokba
 rendezi, növelve az újrafelhasználhatóságát a kódnak. A létrehozott object-ek lehetnek Immutable és Mutable Object-ek, ez
 az adott specifikációtól függ.
+
+## Singleton
+A Singleton egy létrehozási minta, melynek célja biztosítani a fejlesztők számára, hogy a kívánt class-t kizárólag egyszer
+lehessen példányosítani, miközben ehhez az instance-hoz globális hozzáférést biztosít. Túlzott használata antipattern, ezért megfontoltan
+kell bánni vele.
