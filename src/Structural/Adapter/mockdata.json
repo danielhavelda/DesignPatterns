@@ -1,0 +1,31 @@
+{
+  "2022-01-01": [
+    {
+      "id": "a50cbd22f1",
+      "manufacturer": "BMW",
+      "model": "i3"
+    },
+    {
+      "id": "8b53a4d8e6",
+      "manufacturer": "BMW",
+      "model": "i3s"
+    }
+  ],
+  "2022-01-02": [
+    {
+      "id": "a55f5ca38a",
+      "manufacturer": "BMW",
+      "model": "i3s"
+    },
+    {
+      "id": "5677237819",
+      "manufacturer": "BMW",
+      "model": "iX M60"
+    },
+    {
+      "id": "331045e958",
+      "manufacturer": "Lexus",
+      "model": "RZ"
+    }
+  ]
+}
